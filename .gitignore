@@ -1,0 +1,20 @@
+build/
+build-simple/
+build-nogui/
+cmake-build-*/
+.idea/
+.vscode/
+.DS_Store
+logs.txt
+*.o
+*.out
+compile_commands.json
+
+# ImGui writes this next to the working directory the GUI was launched from.
+imgui.ini
+
+# Working documents — deliberately not published, EXCEPT docs/images/, which
+# holds the --screenshot output the README embeds and must be committed.
+docs/*
+!docs/images/
+.superpowers/
